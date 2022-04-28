@@ -1,0 +1,19 @@
+Installation instructions ==>
+
+1.	install Python.
+2.	install mysql database password (Aditya8318@) that use in project (you can also change project                                                                             password see point 13,14)
+3.	mysql workbench
+
+Database Configure  ==>
+
+4.	open mysql workbench 
+5.	open Script_LPG_Booking.sql from the repository.
+6.	copy all file text and past it in mysql Workbance workspace and run it      
+7.	LPG Database is created and now booking and customer tables are available in database.
+
+Project Configure  ==>
+
+Note:- If you change password in step 2 the password must be changed in the code as well.
+
+8.       Run the LPG_Booking_System.py file.
+9.       Before doing step 8. make sure the sql connector module is installed in the system.(pip install          mysql-connector-python) with this command in python terminal.
