@@ -1,13 +1,14 @@
 CREATE DATABASE `lpg_booking` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-SELECT * FROM lpg_booking.booking;CREATE TABLE `booking` (
+SELECT * FROM `lpg_booking`.`booking`;
+CREATE TABLE `booking` (
   `ConsumerID` int NOT NULL,
   `BookingDate` varchar(45) DEFAULT NULL,
   `DeliveryDate` varchar(45) DEFAULT NULL,
   `BookingType` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`ConsumerID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+);
 
-CREATE TABLE `customer` (
+CREATE TABLE `lpg_booking`.`customer` (
   `ConsumerID` int NOT NULL,
   `Name` varchar(45) DEFAULT NULL,
   `IDNumber` varchar(45) DEFAULT NULL,
@@ -20,4 +21,4 @@ CREATE TABLE `customer` (
   `Address` varchar(45) DEFAULT NULL,
   `Nationality` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`ConsumerID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ;
