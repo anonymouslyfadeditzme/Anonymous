@@ -10,6 +10,8 @@ The Project uses the following Libraries:-
 3) Mysql.connector 
 4) Messagebox from tkinter
 
+Note:- The project works on Connected SQL Database System. All the steps written in the howtoconfigure text file should be followed to run the main file smoothly. 
+
 
 
 
